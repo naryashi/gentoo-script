@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Rename to something.sh (e.g. 10-my-apps.sh) and it runs INSIDE the new system
+# at the very end, in filename order. Examples:
+#
+# emerge --noreplace app-editors/neovim app-shells/fish
+# flatpak install -y flathub com.discordapp.Discord org.videolan.VLC
+# curl -sS https://starship.rs/install.sh | sh -s -- -y
+echo "hook example: nothing to do"
